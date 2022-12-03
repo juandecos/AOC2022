@@ -19,11 +19,11 @@ namespace AOC2022
         public override object SolveTwo()
         {
             int sum = 0;
-            for (int i = 0; i < Rows.Count; i+=3)
+            for (int i = 0; i < Rows.Count; i += 3)
             {
-                var ruck1 = Rows[i];
-                var ruck2 = Rows[i+1];
-                var ruck3 = Rows[i+2];
+                var ruck1 = Rows[i].Distinct();
+                var ruck2 = Rows[i + 1].Distinct();
+                var ruck3 = Rows[i + 2].Distinct();
                 var overlap = ruck1.First(x => ruck2.Contains(x) && ruck3.Contains(x));
                 sum += Priority(overlap);
             }
