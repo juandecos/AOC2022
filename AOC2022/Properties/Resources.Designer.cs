@@ -19,7 +19,7 @@ namespace AOC2022.Properties {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class Resources {
@@ -61,93 +61,96 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 261
-        ///1773
-        ///1839
-        ///1551
-        ///1781
-        ///1276
-        ///1372
-        ///1668
-        ///1823
-        ///1870
-        ///1672
-        ///1821
-        ///1327
-        ///1902
-        ///1949
-        ///1389
-        ///1720
-        ///1437
-        ///1716
-        ///1360
-        ///1893
-        ///1410
-        ///1881
-        ///1927
-        ///1639
-        ///1514
-        ///1753
-        ///1625
-        ///1249
-        ///1696
-        ///1698
-        ///1699
-        ///2004
-        ///1742
-        ///1903
-        ///473
-        ///1948
-        ///1830
-        ///1973
-        ///2005
-        ///1468
-        ///1824
-        ///1809
-        ///1493
-        ///2009
-        ///1848
-        ///1306
-        ///1519
-        ///1618
-        ///1905
-        ///1402
-        ///1705
-        ///1910
-        ///1609
-        ///1571
-        ///1557
-        ///1420
-        ///608
-        ///1471
-        ///1383
-        ///1442
-        ///1447
-        ///1985
-        ///1486
-        ///1629
-        ///1450
-        ///1767
-        ///1407
-        ///1626
-        ///1623
-        ///1467
-        ///1224
-        ///1269
-        ///1325
-        ///1674
-        ///1945
-        ///1733
-        ///1913
-        ///1451
-        ///1853
-        ///1875
-        ///405
-        ///1500
-        ///1634
-        ///1570
-        ///1868
-        /// [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to 8890
+        ///13468
+        ///5519
+        ///4939
+        ///
+        ///4580
+        ///3529
+        ///2917
+        ///1329
+        ///4004
+        ///3553
+        ///5457
+        ///1907
+        ///2515
+        ///4055
+        ///4626
+        ///3776
+        ///1982
+        ///2967
+        ///
+        ///10118
+        ///2688
+        ///4629
+        ///3054
+        ///3911
+        ///6680
+        ///6988
+        ///6471
+        ///
+        ///2836
+        ///7494
+        ///7963
+        ///8528
+        ///8732
+        ///1743
+        ///4794
+        ///1685
+        ///1406
+        ///2575
+        ///
+        ///7606
+        ///11935
+        ///4792
+        ///7040
+        ///8684
+        ///1131
+        ///3000
+        ///
+        ///5799
+        ///4398
+        ///3837
+        ///2155
+        ///1889
+        ///5560
+        ///6684
+        ///2045
+        ///1194
+        ///1280
+        ///4009
+        ///6944
+        ///4754
+        ///
+        ///3932
+        ///10114
+        ///9039
+        ///10597
+        ///6889
+        ///5807
+        ///8786
+        ///5376
+        ///
+        ///5666
+        ///8741
+        ///2305
+        ///3914
+        ///4521
+        ///6449
+        ///6590
+        ///5933
+        ///2765
+        ///
+        ///1417
+        ///3584
+        ///3304
+        ///5605
+        ///6249
+        ///3195
+        ///5905
+        ///5308
+        ///3920        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Input01 {
             get {
@@ -156,30 +159,109 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to 13-16 k: kkkkkgmkbvkkrskhd
-        ///5-6 p: qpppvzp
-        ///3-4 p: psppxhlfpvkh
-        ///3-10 w: wwwwwwwwwwdwww
-        ///4-5 r: rcgrrcr
-        ///3-4 c: clvccc
-        ///1-5 x: xfsfxmctb
-        ///9-14 k: kpkmkkckhkkkkvkk
-        ///5-6 s: gsfsss
-        ///4-8 c: cccdcqdcr
-        ///2-5 k: kmkpkkfgkkkkdkkk
-        ///9-11 f: pfnsfffwxsn
-        ///8-9 w: wjwnwcwxc
-        ///7-8 q: rrxhplqs
-        ///5-10 n: gpnkqnxnbjzgjnb
-        ///18-19 p: fvpkgfkfjgwllqwhrjd
-        ///12-13 v: kvvvbmdvvvvvvcvvvv
-        ///3-5 m: mdmkmvhszpjcxl
-        ///2-7 v: qjmvzdwxc
-        ///1-4 b: bbbbbbbb
-        ///2-5 c: fzcdccfkcsjhckccrcx
-        ///2-10 d: fhdwdbdddrsldrtdjdr
-        ///1-7 z: ztszzfzztcqzrz
-        ///4-6 j: mmjjj [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to A Z
+        ///A Z
+        ///A Z
+        ///B Z
+        ///C X
+        ///A Z
+        ///A Z
+        ///C Y
+        ///A Z
+        ///A Y
+        ///B Y
+        ///A Z
+        ///C X
+        ///A Z
+        ///A Z
+        ///A Z
+        ///A Z
+        ///A Y
+        ///A Z
+        ///A Z
+        ///C Y
+        ///C X
+        ///C X
+        ///C X
+        ///A Z
+        ///A Z
+        ///B Y
+        ///A Z
+        ///A Z
+        ///C Z
+        ///B Z
+        ///A Y
+        ///A Z
+        ///B Y
+        ///A Z
+        ///B Y
+        ///A X
+        ///B Z
+        ///A Z
+        ///A Z
+        ///A Z
+        ///C X
+        ///C X
+        ///A X
+        ///A Z
+        ///A Z
+        ///C X
+        ///A Z
+        ///B Y
+        ///A Z
+        ///B Z
+        ///A Z
+        ///A Z
+        ///B Z
+        ///B Z
+        ///C Y
+        ///B Z
+        ///A X
+        ///B Z
+        ///A Z
+        ///B Y
+        ///A Z
+        ///B Z
+        ///C X
+        ///A Z
+        ///B Y
+        ///B Z
+        ///A Z
+        ///B Y
+        ///C X
+        ///B Y
+        ///A Z
+        ///A Z
+        ///A Z
+        ///B Y
+        ///A Z
+        ///A Z
+        ///B Y
+        ///B Z
+        ///C Z
+        ///A X
+        ///A Z
+        ///A Z
+        ///C Z
+        ///C X
+        ///A Z
+        ///C X
+        ///A Z
+        ///A X
+        ///A Z
+        ///A Z
+        ///A Z
+        ///B X
+        ///B Y
+        ///A Z
+        ///A Z
+        ///A Z
+        ///C Y
+        ///B Y
+        ///C X
+        ///C X
+        ///A Z
+        ///A  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Input02 {
             get {
@@ -188,7 +270,22 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to .##.#.........#.....#....#...#.
+        ///.#.#.#...#.......#.............
+        ///......#..#....#.#...###.......#
+        ///.......###......#.....#..##..#.
+        ///..#...##.......#.......###.....
+        ///....###.#....###......#....#..#
+        ///......#..#....#...##...........
+        ///..#..#....#...#.....####.......
+        ///...#........#.#.......#..#...#.
+        ///......#...#........#...#..##...
+        ///#..#........#............#...##
+        ///..#..#.#....#...........#...###
+        ///#.#..#...........#.##.#.#....#.
+        ///.#.#....#...##.....#...........
+        ///.....##....#...#..............#
+        ///...#....#...#.#.# [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Input03 {
             get {
@@ -197,7 +294,32 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to hgt:159cm
+        ///pid:561068005 eyr:2025 iyr:2017 cid:139 ecl:blu hcl:#ceb3a1
+        ///byr:1940
+        ///
+        ///iyr:2014
+        ///byr:1986 pid:960679613 eyr:2025 ecl:hzl
+        ///
+        ///cid:211 ecl:blu hcl:#7d3b0c iyr:2011 pid:006632702
+        ///byr:1982 eyr:2023 hgt:68in
+        ///
+        ///hcl:#341e13 hgt:192 iyr:2028
+        ///ecl:utc
+        ///eyr:2027 byr:1979 pid:653515689
+        ///
+        ///eyr:2026 hgt:161cm ecl:#1850b8
+        ///pid:298779494 hcl:b2114e iyr:1953
+        ///
+        ///hgt:155cm
+        ///hcl:#a97842 iyr:2019
+        ///ecl:gry byr:1939
+        ///pid:935099157 eyr:2027
+        ///
+        ///eyr:2024 ecl:grn
+        ///pid:102781360 byr:1962 iyr:2013 hcl:#602927
+        ///
+        ///hcl:#602 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Input04 {
             get {
@@ -206,7 +328,49 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to BFFFFBBRRL
+        ///FBBBBBBRRL
+        ///BBBFFBBRRR
+        ///BFFFFFFLRL
+        ///FBFFBFBRRR
+        ///BFFBFFBLRR
+        ///FFBBBFBRRR
+        ///BBFBBBBLRL
+        ///FBFFBFFLRL
+        ///BFFFBBFLLL
+        ///FBFFFFFRLL
+        ///FBFFBFFRRL
+        ///BBBFBFBRRL
+        ///BFFBFFFLLL
+        ///FBFFFFFLLL
+        ///BFFFBBFLLR
+        ///FBBFFBFRRR
+        ///FFBBFBFLRR
+        ///FFFBBBFLRL
+        ///FFBFBBBRRL
+        ///FBFBBBBLLR
+        ///BBBFFFBLLR
+        ///FBBBFFFLLL
+        ///FFBFBFFRLR
+        ///FBFBBBFLLR
+        ///BBBFBBBRRR
+        ///FBBFFFBLRR
+        ///FBBFFFBLLR
+        ///BFBFFBBLLL
+        ///BBFFFFFRLR
+        ///BBFBBFFRRL
+        ///BBBBFBFRRR
+        ///BFFFFBFRRR
+        ///FBFFFFBLLR
+        ///FFBFBFBRLL
+        ///FBFFFFBLRL
+        ///BFFFFFFLLL
+        ///BFBBFBBLRR
+        ///FFFBBBBRRL
+        ///BBFFFFBLRL
+        ///FFFBBFBRLL
+        ///BBBBFFBRRR
+        ///FBBBBBFR [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Input05 {
             get {
@@ -215,7 +379,48 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to lznroxbqymvfijpwkec
+        ///gljkpwyvsbmroziefnqxc
+        ///bmkiewyxjfzqrocnlpv
+        ///ibewnmlkzfcrjyvxopq
+        ///fkmxpbvjiwlrzocqyne
+        ///
+        ///khicbaxyvmlgorz
+        ///baonifgtlkrmcxhzv
+        ///albmyvgrihxkzoc
+        ///vmcizkpglyoarxbh
+        ///
+        ///mxrufizdpe
+        ///tmowfuynajqlivhgskrcb
+        ///
+        ///xwqpuirsmaoyldgbzft
+        ///odlyigpqsmbvtzauxr
+        ///aymdshiprbguoqzxtl
+        ///zdylrimtjpxeosaqubg
+        ///tlbzigadxkoqnurcsmyp
+        ///
+        ///jadtruwhinqog
+        ///vitasqdnoeghjwuz
+        ///aigqhdowjsetun
+        ///unhqwogdjait
+        ///
+        ///om
+        ///oep
+        ///
+        ///vknfwpuzisty
+        ///tzifluwnspv
+        ///wispvfntuz
+        ///
+        ///znupcl
+        ///lcnpuz
+        ///lkuznecp
+        ///pczunlx
+        ///nzubclp
+        ///
+        ///cunfkismz
+        ///lbhypaje
+        ///
+        ///r [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Input06 {
             get {
@@ -224,7 +429,13 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to muted coral bags contain 1 bright magenta bag, 1 dim aqua bag.
+        ///muted orange bags contain 2 bright red bags.
+        ///dim olive bags contain 2 dull silver bags, 4 posh blue bags.
+        ///dim white bags contain 4 shiny indigo bags, 4 posh tan bags, 3 faded blue bags.
+        ///dotted salmon bags contain 5 bright black bags, 3 bright purple bags, 5 bright olive bags.
+        ///faded purple bags contain 4 pale beige bags, 2 striped violet bags, 3 muted olive bags, 4 vibrant chartreuse bags.
+        ///dark maroon bags contain 1 muted chartreuse bag, 1  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Input07 {
             get {
@@ -233,7 +444,62 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to acc -15
+        ///jmp +164
+        ///nop +157
+        ///acc -12
+        ///acc -19
+        ///acc +41
+        ///jmp +177
+        ///acc +36
+        ///acc +37
+        ///nop +471
+        ///jmp +433
+        ///acc +24
+        ///acc +13
+        ///acc -12
+        ///jmp +556
+        ///jmp +1
+        ///acc -15
+        ///acc +33
+        ///jmp +299
+        ///jmp +344
+        ///acc -3
+        ///jmp +124
+        ///acc +10
+        ///nop +562
+        ///acc +45
+        ///jmp +386
+        ///acc -3
+        ///jmp +206
+        ///acc -19
+        ///acc +12
+        ///jmp +424
+        ///acc -18
+        ///acc +23
+        ///acc +12
+        ///acc +0
+        ///jmp +311
+        ///nop +327
+        ///jmp +301
+        ///acc +20
+        ///nop +375
+        ///jmp +25
+        ///acc -13
+        ///acc +49
+        ///acc +23
+        ///acc -3
+        ///jmp +346
+        ///acc +2
+        ///acc +3
+        ///jmp +123
+        ///acc -7
+        ///nop +183
+        ///jmp +165
+        ///acc +47
+        ///acc +34
+        ///jmp +1
+        ///jmp + [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Input08 {
             get {
@@ -242,7 +508,125 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 3
+        ///17
+        ///32
+        ///2
+        ///19
+        ///45
+        ///22
+        ///18
+        ///38
+        ///8
+        ///16
+        ///13
+        ///41
+        ///35
+        ///23
+        ///29
+        ///11
+        ///46
+        ///12
+        ///27
+        ///49
+        ///34
+        ///20
+        ///14
+        ///47
+        ///50
+        ///10
+        ///15
+        ///17
+        ///21
+        ///57
+        ///25
+        ///19
+        ///18
+        ///22
+        ///76
+        ///24
+        ///32
+        ///26
+        ///28
+        ///23
+        ///30
+        ///29
+        ///31
+        ///33
+        ///27
+        ///35
+        ///42
+        ///34
+        ///36
+        ///91
+        ///40
+        ///37
+        ///38
+        ///43
+        ///47
+        ///44
+        ///41
+        ///45
+        ///72
+        ///49
+        ///61
+        ///80
+        ///55
+        ///66
+        ///71
+        ///56
+        ///117
+        ///141
+        ///69
+        ///135
+        ///70
+        ///73
+        ///83
+        ///74
+        ///75
+        ///114
+        ///78
+        ///79
+        ///113
+        ///213
+        ///189
+        ///86
+        ///104
+        ///173
+        ///105
+        ///116
+        ///131
+        ///152
+        ///194
+        ///149
+        ///125
+        ///139
+        ///142
+        ///143
+        ///144
+        ///247
+        ///188
+        ///157
+        ///191
+        ///153
+        ///238
+        ///164
+        ///165
+        ///190
+        ///202
+        ///209
+        ///211
+        ///393
+        ///269
+        ///221
+        ///291
+        ///299
+        ///281
+        ///264
+        ///267
+        ///268
+        ///327
+        ///3 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Input09 {
             get {
@@ -251,7 +635,101 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 86
+        ///149
+        ///4
+        ///75
+        ///87
+        ///132
+        ///12
+        ///115
+        ///62
+        ///61
+        ///153
+        ///78
+        ///138
+        ///43
+        ///88
+        ///108
+        ///59
+        ///152
+        ///109
+        ///63
+        ///42
+        ///60
+        ///7
+        ///104
+        ///49
+        ///156
+        ///35
+        ///2
+        ///52
+        ///72
+        ///125
+        ///94
+        ///46
+        ///136
+        ///26
+        ///16
+        ///76
+        ///117
+        ///116
+        ///150
+        ///20
+        ///13
+        ///141
+        ///131
+        ///127
+        ///67
+        ///3
+        ///40
+        ///54
+        ///82
+        ///36
+        ///100
+        ///41
+        ///56
+        ///146
+        ///157
+        ///89
+        ///23
+        ///8
+        ///55
+        ///111
+        ///135
+        ///144
+        ///77
+        ///124
+        ///18
+        ///53
+        ///92
+        ///126
+        ///101
+        ///69
+        ///27
+        ///145
+        ///11
+        ///151
+        ///31
+        ///19
+        ///34
+        ///17
+        ///130
+        ///118
+        ///28
+        ///107
+        ///137
+        ///68
+        ///93
+        ///85
+        ///66
+        ///97
+        ///110
+        ///37
+        ///114
+        ///79
+        ///121
+        ///1.
         /// </summary>
         internal static string Input10 {
             get {
@@ -260,7 +738,12 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to .LLLL.L.LLLL.LL.LLL.L.LLLLLLL.LLLLL.LLLLLLLLLLLLL.LLLL.LLL.LLLLL.LLLLLLLL.LLLLL.LLLLLLL.LLLLL
+        ///LLLLLLL.LLLLLLL.LLLLLLLLLLLL.LLLLLLLLLLLLL.LLLLLL.LLLL.LLL..LLLL.LLLLLLLL.LLLLL.LLLLLLL.LLLLL
+        ///LLLLLLLLLLLL.LL.LLLLL.LLLL.L.LLLL.LLLLLL.L.LLL.LL..LLL.LLLLLLLLLLLLLLLLLL.L.LLL.LLLLLLL.LLLLL
+        ///LLLLLLLLLLLLLLL.LLLLL.LLLLLL.LLLLLLL.LLLLL.LLLLLL.LLLL.LLLLLLLLL.LLLLLLLL.LLLLL.LLLLLLL.L.LLL
+        ///LL.LLLL.LLLLLLL.L.LLL.LLLLLL.L.LL.LLLLLLLL.LLLLLLLLL.LLLL.LLLLLL.LLLLLLLL.LL.LL.LLLLLLL.LLLLL
+        ///LLLLLLL.LLLLLLL.LLLLL.LLLLLLL.LLL.LLL [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Input11 {
             get {
@@ -269,7 +752,119 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to F37
+        ///E1
+        ///S5
+        ///R180
+        ///S1
+        ///F37
+        ///L180
+        ///F38
+        ///S1
+        ///E2
+        ///L90
+        ///F48
+        ///N1
+        ///S5
+        ///E2
+        ///F53
+        ///E3
+        ///L90
+        ///F37
+        ///S3
+        ///F65
+        ///L90
+        ///F78
+        ///W3
+        ///S4
+        ///L90
+        ///F54
+        ///F61
+        ///E5
+        ///S1
+        ///L90
+        ///W2
+        ///L90
+        ///N3
+        ///F63
+        ///S3
+        ///E3
+        ///F83
+        ///R90
+        ///S2
+        ///W2
+        ///S5
+        ///E1
+        ///R90
+        ///W1
+        ///R90
+        ///W3
+        ///F52
+        ///E1
+        ///S4
+        ///E1
+        ///E4
+        ///R90
+        ///E4
+        ///F94
+        ///N5
+        ///F56
+        ///F17
+        ///L180
+        ///W2
+        ///S2
+        ///R90
+        ///S3
+        ///F49
+        ///R90
+        ///N4
+        ///E1
+        ///N3
+        ///F49
+        ///R90
+        ///S2
+        ///E3
+        ///F29
+        ///E2
+        ///R270
+        ///E5
+        ///L90
+        ///W3
+        ///F24
+        ///E2
+        ///S2
+        ///L90
+        ///F46
+        ///N1
+        ///F65
+        ///E1
+        ///N4
+        ///E5
+        ///R90
+        ///S4
+        ///L90
+        ///F51
+        ///R90
+        ///L180
+        ///W3
+        ///R90
+        ///L270
+        ///W4
+        ///S1
+        ///W1
+        ///L180
+        ///S1
+        ///F20
+        ///E5
+        ///L180
+        ///N2
+        ///F11
+        ///R180
+        ///N5
+        ///E2
+        ///N3
+        ///L90
+        ///F [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Input12 {
             get {
@@ -278,7 +873,8 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 1000067
+        ///17,x,x,x,x,x,x,x,x,x,x,37,x,x,x,x,x,439,x,29,x,x,x,x,x,x,x,x,x,x,13,x,x,x,x,x,x,x,x,x,23,x,x,x,x,x,x,x,787,x,x,x,x,x,x,x,x,x,41,x,x,x,x,x,x,x,x,19.
         /// </summary>
         internal static string Input13 {
             get {
@@ -287,7 +883,27 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to mask = 00110X11X0000110X0000001000111010X00
+        ///mem[39993] = 276
+        ///mem[23021] = 365
+        ///mem[59102] = 45645
+        ///mem[30606] = 2523
+        ///mem[38004] = 4503
+        ///mem[47790] = 1221939
+        ///mem[24194] = 3417
+        ///mask = 00X10011000001X00X1010XX11X000011000
+        ///mem[61385] = 13441
+        ///mem[44092] = 46615
+        ///mem[14640] = 11081
+        ///mask = 100X01110X000110XX11X100X0111000XX01
+        ///mem[14433] = 189475544
+        ///mem[64841] = 3883
+        ///mem[4069] = 144204
+        ///mem[5170] = 5792
+        ///mem[25427] = 1964230
+        ///mask = 0110100100000000X00X000000010X0X1011
+        ///mem[35438] = 52679760
+        ///mem[34307]  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Input14 {
             get {
@@ -296,7 +912,7 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 0,13,1,16,6,17.
         /// </summary>
         internal static string Input15 {
             get {
@@ -305,7 +921,22 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to departure location: 33-679 or 691-971
+        ///departure station: 48-646 or 671-966
+        ///departure platform: 37-601 or 619-950
+        ///departure track: 41-863 or 875-973
+        ///departure date: 37-145 or 168-965
+        ///departure time: 26-246 or 257-972
+        ///arrival location: 30-542 or 556-960
+        ///arrival station: 30-75 or 89-954
+        ///arrival platform: 48-274 or 299-958
+        ///arrival track: 41-561 or 567-957
+        ///class: 40-237 or 243-952
+        ///duration: 33-317 or 336-972
+        ///price: 47-365 or 381-957
+        ///route: 29-415 or 435-951
+        ///row: 45-762 or 784-972
+        ///seat: 34-888 or 9 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Input16 {
             get {
@@ -314,7 +945,14 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to ..#..#..
+        ///#.#...#.
+        ///..#.....
+        ///##....##
+        ///#..#.###
+        ///.#..#...
+        ///###..#..
+        ///....#..#.
         /// </summary>
         internal static string Input17 {
             get {
@@ -323,7 +961,15 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to (8 + 5 + 5) + (8 + (2 * 6) + (6 * 6 * 9 * 8) + 3 + 9 * 8)
+        ///(7 + 7 + 3) * 8 * (5 + 9 + 4 + (7 + 8 + 3 * 3 + 9 + 7) + (7 + 6 + 6) * 8) * (4 + 5 * 9)
+        ///8 * (3 * (3 + 8 + 4 * 9) + (7 * 9) * (3 * 3 * 3 + 6 * 8 * 2) * 7) + 5 + 2
+        ///2 * (2 + 9 + 6 * (5 + 9 * 2 * 2 * 5 * 5) * (6 * 9 + 4 + 8 + 4 * 9))
+        ///3 + 2
+        ///2 * ((5 * 5 + 9 * 5 * 3 + 7) + (8 * 8 + 4) + 7) * 7
+        ///8 * 3 + 4
+        ///(5 * 3 * (9 * 9 + 4 * 3) + 2) * (3 + 2 * 2 + (8 + 6) * 3 + 7)
+        ///((6 + 4 * 5 + 9 + 7 + 9) + 2 + 4 * 3 + 5) + 5 * 4 + (5 * (2 * 5 + 3 + 8 + 4) * 5 * 8)  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Input18 {
             get {
@@ -332,7 +978,32 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 104: 23 105 | 105 23
+        ///40: 23 39 | 105 35
+        ///127: 23 3 | 105 49
+        ///96: 85 23 | 73 105
+        ///114: 70 23 | 106 105
+        ///124: 80 105 | 71 23
+        ///23: &quot;a&quot;
+        ///97: 105 12 | 23 104
+        ///18: 23 118 | 105 29
+        ///89: 121 105 | 39 23
+        ///13: 23 18 | 105 87
+        ///122: 50 105 | 24 23
+        ///6: 58 105 | 59 23
+        ///101: 105 44 | 23 43
+        ///31: 105 65 | 23 13
+        ///36: 64 105 | 68 23
+        ///74: 105 123 | 23 7
+        ///38: 19 23 | 48 105
+        ///118: 105 127 | 23 75
+        ///130: 23 30 | 105 44
+        ///59: 105 121 | 23 71
+        ///112: 92 23 | 97 105
+        ///91: 25 23 | 66 105
+        ///46: 30 23 | 39 105
+        ///111: 105 35 | 23 104
+        ///28: 105 [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Input19 {
             get {
@@ -341,7 +1012,52 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Tile 3253:
+        ///###....#..
+        ///.#..##....
+        ///##.#.#.#.#
+        ///#.#.......
+        ///#....#...#
+        ///#.##...#..
+        ///....#.....
+        ///##.##.#..#
+        ///.###...##.
+        ///##.#...##.
+        ///
+        ///Tile 2843:
+        ///...#.#.#..
+        ///##.....#.#
+        ///..#...#...
+        ///#.##.##...
+        ///#......###
+        ///#..#.#.###
+        ///........##
+        ///#.....##..
+        ///........#.
+        ///..##..###.
+        ///
+        ///Tile 2557:
+        ///..##..#.#.
+        ///#.#......#
+        ///...#......
+        ///..........
+        ///.#....#..#
+        ///...#....##
+        ///####.....#
+        ///.##.##..#.
+        ///#..#......
+        ///#.#.##.#..
+        ///
+        ///Tile 2543:
+        ///...#.#####
+        ///...#.....#
+        ///#..#.#....
+        ///.......#..
+        ///......#..#
+        ///#......#..
+        ///.#...#...#
+        ///##.#.#..##
+        ///#. [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Input20 {
             get {
@@ -350,7 +1066,7 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to jfvltdz txzv szzbr fcbsv klzdr xclff jqqbnzz flzmlbf crfxz jxrlzm xcfpc tvk kdbx zlhlq gfpnx ccvsl zfl skllln lxqbsc frgnkt mrnd smjhxg cmqjlb jxdbh tsbffm mtjlb czbhh gbbxhp snsnj lmvx pbztj glvv jkzxn nnfps hnvrfvm fddx nhhgb hdt jg hrnzq tmgfr vjcbtd nklc fmbqgs hcg gpgrb qrgvj znqbr pfdkkzp vmrf mbqpfm pccmj bph hmngm fcbvh vtqhqs zsjlp rdbdd gtjmd bskstb krxj rglbcpq svqz jczm frssvh nmxdsnc hjbs xkpm tsvfrt txr flmm tjrm jccqsxs bncfz vlpq ngl dvfqqz hqxdv xzrdx qdnh hbqhvk spbxz pnxzqgp kjcdgh ttmcq  [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Input21 {
             get {
@@ -359,7 +1075,59 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to Player 1:
+        ///43
+        ///36
+        ///13
+        ///11
+        ///20
+        ///25
+        ///37
+        ///38
+        ///4
+        ///18
+        ///1
+        ///8
+        ///27
+        ///23
+        ///7
+        ///22
+        ///10
+        ///5
+        ///50
+        ///40
+        ///45
+        ///26
+        ///15
+        ///32
+        ///33
+        ///
+        ///Player 2:
+        ///21
+        ///29
+        ///12
+        ///28
+        ///46
+        ///9
+        ///44
+        ///6
+        ///16
+        ///39
+        ///19
+        ///24
+        ///17
+        ///14
+        ///47
+        ///48
+        ///42
+        ///34
+        ///31
+        ///3
+        ///41
+        ///35
+        ///2
+        ///30
+        ///49.
         /// </summary>
         internal static string Input22 {
             get {
@@ -368,7 +1136,7 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 653427918.
         /// </summary>
         internal static string Input23 {
             get {
@@ -377,7 +1145,21 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to wwwnwwwwwwwwenwwwwwwww
+        ///swwwswswswswswswwswswswneswswswwswse
+        ///nenenesenewnenenesenesenenenenenewnewnene
+        ///seseswseseswseswwswseswseseseseneswseswse
+        ///nwnwsenwnwnwnwnenwnenwnwnwsenenwsenwnwnwne
+        ///swswswwswnewswswsw
+        ///eneeswnenenweesenenenwneneneeenene
+        ///wnwwnwwnwsewnwwnwnwwnwwwnwwnwnw
+        ///nwneswsenewenwnwswneswnenenwenwnenenwnwnw
+        ///senewnwwwwwwnwwwnwnwnwnwnwwwew
+        ///eewneneneeeeneeese
+        ///eneewseeneswnweswnwswsw
+        ///swwswswseswnwneseswseenwwsesesenewne
+        ///swswswswswswseswswseswswsenwsesesenwsee
+        ///esesenwnwnwseseneeswseswnwwewese [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Input24 {
             get {
@@ -386,7 +1168,8 @@ namespace AOC2022.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to .
+        ///   Looks up a localized string similar to 14205034
+        ///18047856.
         /// </summary>
         internal static string Input25 {
             get {

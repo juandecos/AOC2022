@@ -49,6 +49,22 @@ namespace AOC2022
             }
             yield return group;
         }
+
+        public IEnumerable<List<int>> GroupIntRows()
+        {
+            var group = new List<int>();
+            foreach (var row in Rows)
+            {
+                if (row.Length != 0)
+                {
+                    group.Add(int.Parse(row));
+                    continue;
+                }
+                yield return group.ConvertAll(x => x);
+                group.Clear();
+            }
+            yield return group;
+        }
     }
 
     public static class SolverExtensions

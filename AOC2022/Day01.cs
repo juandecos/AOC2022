@@ -7,12 +7,12 @@ namespace AOC2022
     {
         public override object SolveOne()
         {
-            return GroupRows().Select(x => x.Sum(y => int.Parse(y))).Max();
+            return GroupIntRows().Select(x => x.Sum()).Max();
         }
 
         public override object SolveTwo()
         {
-            return GroupRows().Select(x => x.Sum(y => int.Parse(y))).OrderByDescending(x => x).Take(3).Sum();
+            return GroupIntRows().Select(x => x.Sum()).OrderByDescending(x => x).Take(3).Sum();
         }
     }
 }
