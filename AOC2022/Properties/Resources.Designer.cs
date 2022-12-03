@@ -150,7 +150,8 @@ namespace AOC2022.Properties {
         ///3195
         ///5905
         ///5308
-        ///3920        /// [rest of string was truncated]&quot;;.
+        ///3920
+        /// [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string Input01 {
             get {

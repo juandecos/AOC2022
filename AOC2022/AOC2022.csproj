@@ -64,6 +64,7 @@
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -71,6 +72,31 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Input02.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Input03.txt" />
+    <Content Include="Resources\Input04.txt" />
+    <Content Include="Resources\Input05.txt" />
+    <Content Include="Resources\Input06.txt" />
+    <Content Include="Resources\Input07.txt" />
+    <Content Include="Resources\Input08.txt" />
+    <Content Include="Resources\Input09.txt" />
+    <Content Include="Resources\Input10.txt" />
+    <Content Include="Resources\Input11.txt" />
+    <Content Include="Resources\Input12.txt" />
+    <Content Include="Resources\Input13.txt" />
+    <Content Include="Resources\Input14.txt" />
+    <Content Include="Resources\Input15.txt" />
+    <Content Include="Resources\Input16.txt" />
+    <Content Include="Resources\Input17.txt" />
+    <Content Include="Resources\Input18.txt" />
+    <Content Include="Resources\Input19.txt" />
+    <Content Include="Resources\Input20.txt" />
+    <Content Include="Resources\Input21.txt" />
+    <Content Include="Resources\Input22.txt" />
+    <Content Include="Resources\Input23.txt" />
+    <Content Include="Resources\Input24.txt" />
+    <Content Include="Resources\Input25.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
