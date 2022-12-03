@@ -6,7 +6,7 @@ namespace AOC2022
     {
         static void Main(string[] args)
         {
-            var solver = new Day01();
+            var solver = new Day03();
             solver.SolveAndPrintOne();
             solver.SolveAndPrintTwo();
             Console.ReadKey();
