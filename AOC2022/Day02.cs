@@ -7,26 +7,22 @@ namespace AOC2022
     {
         public override object SolveOne()
         {
-            return Rows.Sum(x =>
-            {
-                (int player1, int player2) = Parse(x);
-                return Score(player1, player2);
-            });
+            return Rows
+                .Select(x => Parse(x))
+                .Sum(inputs => Score(inputs[0], inputs[1]));
         }
 
         public override object SolveTwo()
         {
-            return Rows.Sum(x =>
-            {
-                (int player1, int neededResult) = Parse(x);
-                int player2 = neededResult == 0 ? Inferior(player1) : neededResult == 1 ? player1 : Superior(player1);
-                return Score(player1, player2);
-            });
+            return Rows
+                .Select(x => Parse(x))
+                .Sum(inputs => Score(inputs[0], GetRequiredMove(inputs[0], inputs[1])));
         }
 
-        private (int, int) Parse(string input) => (input[0] - 'A', input[2] - 'X');
-        private int Superior(int p) => (p + 1) % 3;
-        private int Inferior(int p) => (p + 2) % 3;
-        private int Score(int p1, int p2) => p2 + 1 + (p1 == p2 ? 3 : p1 == Inferior(p2) ? 6 : 0);
+        private int[] Parse(string input) => new int[] { input[0] - 'A', input[2] - 'X' };
+        private int Superior(int move) => (move + 1) % 3;
+        private int Inferior(int move) => (move + 2) % 3;
+        private int Score(int player1, int player2) => player2 + 1 + (player1 == player2 ? 3 : player1 == Inferior(player2) ? 6 : 0);
+        private int GetRequiredMove(int player1, int result) => result == 0 ? Inferior(player1) : result == 1 ? player1 : Superior(player1);
     }
 }

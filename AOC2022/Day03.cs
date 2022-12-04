@@ -7,27 +7,15 @@ namespace AOC2022
     {
         public override object SolveOne()
         {
-            return Rows.Sum(row =>
-            {
-                var ruck1 = row.Substring(0, row.Length / 2);
-                var ruck2 = row.Substring(row.Length / 2);
-                var overlap = ruck1.First(x => ruck2.Contains(x));
-                return Priority(overlap);
-            });
+            return Rows
+                .Select(x => x.Split(2))
+                .Sum(compartments => Priority(compartments[0].Intersect(compartments[1]).First()));
         }
 
         public override object SolveTwo()
         {
-            int sum = 0;
-            for (int i = 0; i < Rows.Count; i += 3)
-            {
-                var ruck1 = Rows[i].Distinct();
-                var ruck2 = Rows[i + 1].Distinct();
-                var ruck3 = Rows[i + 2].Distinct();
-                var overlap = ruck1.First(x => ruck2.Contains(x) && ruck3.Contains(x));
-                sum += Priority(overlap);
-            }
-            return sum;
+            return GroupRows(3)
+                .Sum(rucksacks => Priority(rucksacks[0].Intersect(rucksacks[1]).Intersect(rucksacks[2]).First()));
         }
 
         private int Priority(char value) => value < 'a' ? (value - 'A' + 27) : (value - 'a' + 1);

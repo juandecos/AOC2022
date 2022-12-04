@@ -34,14 +34,36 @@ namespace AOC2022
             Console.WriteLine("-------- DONE --------");
         }
 
-        public IEnumerable<List<string>> GroupRows()
+        // Form groups based on a number of rows per group
+        public IEnumerable<List<T>> GroupRows<T>(Func<string, T> parser, int groupSize)
         {
-            var group = new List<string>();
+            var group = new List<T>();
+            int count = 0;
+            foreach (var row in Rows)
+            {
+                if (count != groupSize)
+                {
+                    group.Add(parser(row));
+                    count++;
+                    continue;
+                }
+                yield return group.ConvertAll(x => x);
+                group.Clear();
+                group.Add(parser(row));
+                count = 1;
+            }
+            yield return group;
+        }
+
+        // Form rows based on empty line delimiting
+        public IEnumerable<List<T>> GroupRows<T>(Func<string, T> parser)
+        {
+            var group = new List<T>();
             foreach (var row in Rows)
             {
                 if (row.Length != 0)
                 {
-                    group.Add(row);
+                    group.Add(parser(row));
                     continue;
                 }
                 yield return group.ConvertAll(x => x);
@@ -50,20 +72,14 @@ namespace AOC2022
             yield return group;
         }
 
-        public IEnumerable<List<int>> GroupIntRows()
+        public IEnumerable<List<string>> GroupRows(int groupSize)
         {
-            var group = new List<int>();
-            foreach (var row in Rows)
-            {
-                if (row.Length != 0)
-                {
-                    group.Add(int.Parse(row));
-                    continue;
-                }
-                yield return group.ConvertAll(x => x);
-                group.Clear();
-            }
-            yield return group;
+            return GroupRows(x => x, groupSize);
+        }
+
+        public IEnumerable<List<string>> GroupRows()
+        {
+            return GroupRows(x => x);
         }
     }
 
@@ -72,6 +88,17 @@ namespace AOC2022
         public static string[] Split(this string input, string delimiter)
         {
             return input.Split(new string[] { delimiter }, StringSplitOptions.None);
+        }
+
+        public static string[] Split(this string input, int chunkCount)
+        {
+            string[] chunks = new string[chunkCount];
+            int chunkLength = input.Length / chunkCount;
+            for (int i = 0; i < chunkCount; i++)
+            {
+                chunks[i] = input.Substring(i * chunkLength, chunkLength);
+            }
+            return chunks;
         }
 
         public static IEnumerable<TResult> IntersectMany<TSource, TResult>(this IEnumerable<TSource> source, Func<TSource, IEnumerable<TResult>> selector)
